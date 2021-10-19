@@ -14,6 +14,18 @@ Once you have the fundamentals down, you'll apply that knowledge by creating alg
 
 Along the way, you'll also learn two important programming styles or paradigms: Object Oriented Programming (OOP) and Functional Programming (FP).
 
+# Lecon 2 : ES6
+
+ECMAScript, or ES, is a standardized version of JavaScript. Because all major browsers follow this specification, the terms ECMAScript and JavaScript are interchangeable.
+
+Most of the JavaScript you've learned up to this point was in ES5 (ECMAScript 5), which was finalized in 2009. While you can still write programs in ES5, JavaScript is constantly evolving, and new features are released every year.
+
+ES6, released in 2015, added many powerful new features to the language. In this course, you'll learn these new features, including :
+* let and const, 
+* arrow functions, 
+* classes, 
+* promises, and 
+* modules.
 
 # Lecon 4 : Debugging 
 Debugging is the process of going through your code, finding any issues, and fixing them.
