@@ -20,3 +20,18 @@ const uhOhGroucho = 'I've had a perfectly wonderful evening, but this wasn't it.
 //Of course, it is okay to use only one style of quotes. You can escape the quotes inside the string by using the backslash (\) escape character:
 
 const allSameQuotes = 'I\'ve had a perfectly wonderful evening, but this wasn\'t it.';
+
+
+//QUIZ
+//=========
+
+
+//Fix the string so it either uses different quotes for the href value, or escape the existing ones. Keep the double quote marks around the entire string.
+
+let innerHtml = "<p>Click here to <a href="#Home">return home</a></p>";
+console.log(innerHtml);
+
+
+//Answer
+let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
+console.log(innerHtml);
