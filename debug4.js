@@ -12,3 +12,11 @@ then move the cursor back between them and continue coding. Fortunately, most mo
 the pair automatically.
 */
 
+
+//QUIZ
+//===
+
+//Fix the two pair errors in the code.
+let myArray = [1, 2, 3];
+let arraySum = myArray.reduce((previous, current) =>  previous + current);
+console.log(`Sum of array values is: ${arraySum}`);
