@@ -26,14 +26,14 @@ Issues in code generally come in three forms:
 In this course, you'll learn how to use the JavaScript console to debug programs and prevent common issues before they happen. 
 
 This section contents 11 Lecons (files): 
-1. Debug1 : Use the JavaScript Console to Check the Value of a Variable
-2. Debug2 : Use typeof to Check the Type of a Variable
-3. Debug 3 : Catch Misspelled Variable and Function Names
-4. Debug 4 : Catch Unclosed Parentheses, Brackets, Braces and Quotes
-4. Debug 5 : Catch Mixed Usage of Single and Double Quotes
-5. Debug 6 : Catch Use of Assignment Operator Instead of Equality Operator
-6. Debug 7 : Catch Missing Open and Closing Parenthesis After a Function Call
-7. Debug 8 : Catch Arguments Passed in the Wrong Order When Calling a Function
-8. Debug 9 : Catch Off By One Errors When Using Indexing
-9. Debug 10 : Use Caution When Reinitializing Variables Inside a Loop
-10. Debug 11 : Prevent Infinite Loops with a Valid Terminal Condition
+1. Debug1.js : Use the JavaScript Console to Check the Value of a Variable
+2. Debug2.js : Use typeof to Check the Type of a Variable
+3. Debug3.js : Catch Misspelled Variable and Function Names
+4. Debug4.js : Catch Unclosed Parentheses, Brackets, Braces and Quotes
+4. Debug5.js : Catch Mixed Usage of Single and Double Quotes
+5. Debug6.js : Catch Use of Assignment Operator Instead of Equality Operator
+6. Debug7.js : Catch Missing Open and Closing Parenthesis After a Function Call
+7. Debug8.js : Catch Arguments Passed in the Wrong Order When Calling a Function
+8. Debug9.js : Catch Off By One Errors When Using Indexing
+9. Debug10.js : Use Caution When Reinitializing Variables Inside a Loop
+10. Debug11.js : Prevent Infinite Loops with a Valid Terminal Condition
