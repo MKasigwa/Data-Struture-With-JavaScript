@@ -24,3 +24,32 @@ if (x = y) {
 
 //In this example, the code block within the if statement will run for any value of y, unless y is falsy. The else block, which we expect to run here, will not actually run.
 
+//QUIZ
+//========
+
+
+//Fix the condition so the program runs the right branch, and the appropriate value is assigned to result.
+let x = 7;
+let y = 9;
+let result = "to come";
+
+if(x = y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);
+
+//Answer
+let x = 7;
+let y = 9;
+let result = "to come";
+
+if(x === y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);
