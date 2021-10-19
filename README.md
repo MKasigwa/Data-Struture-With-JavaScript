@@ -1,4 +1,5 @@
-# Lecon 4 : Debugging 
+# Data-Struture-With-JavaScript
+
 Debugging is the process of going through your code, finding any issues, and fixing them.
 
 Issues in code generally come in three forms: 
