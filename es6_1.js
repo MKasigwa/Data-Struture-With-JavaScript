@@ -33,3 +33,33 @@ mistakes and "unsafe" actions. For instance:
 x = 3.14;
 
 //This will display an error that x is not defined.
+
+//QUIZ
+//======
+
+
+//Update the code so it only uses the let keyword.
+var catName;
+var quote;
+function catTalk() {
+  "use strict";
+
+  catName = "Oliver";
+  quote = catName + " says Meow!";
+
+}
+catTalk();
+
+
+
+//ANSWER
+let catName;
+let quote;
+function catTalk() {
+  "use strict";
+
+  catName = "Oliver";
+  quote = catName + " says Meow!";
+
+}
+catTalk();
