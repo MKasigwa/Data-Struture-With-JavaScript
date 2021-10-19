@@ -18,3 +18,21 @@ Having check points to see the status of your calculations throughout your code 
 // Here's an example to print the string Hello world! to the console:
 
 console.log('Hello world!');
+
+
+// QUIZ 
+//==========
+
+
+// Use the console.log() method to print the value of the variable a where noted in the code.
+let a = 5;
+let b = 1;
+a++;
+// Only change code below this line
+
+
+//answer
+console.log(a);
+
+let sumAB = a + b;
+console.log(sumAB);
