@@ -23,3 +23,25 @@ The console would display the strings You have passed 3 arguments. and You have 
 The rest parameter eliminates the need to check the args array and allows us to apply map(), 
 filter() and reduce() on the parameters array.
 */
+
+
+//QUIZ
+//=====
+
+/*
+Modify the function sum using the rest parameter in such a way that the function 
+sum is able to take any number of arguments and return their sum.
+*/
+
+const sum = (x, y, z) => {
+    const args = [x, y, z];
+    return args.reduce((a, b) => a + b, 0);
+  }
+
+
+//ANSWER
+//=======
+const sum = (...args) => {
+    //const args = [x, y, z];
+    return args.reduce((a, b) => a + b, 0);
+  }
