@@ -20,3 +20,39 @@ You may read it as "get the value of user.name and assign it to a new variable
 named userName" and so on. The value of userName would be the string John Doe, 
 and the value of userAge would be the number 34.
 */
+
+//QUIZ
+//=====
+
+/*
+Replace the two assignments with an equivalent destructuring assignment. 
+It should still assign the variables highToday and highTomorrow the 
+values of today and tomorrow from the HIGH_TEMPERATURES object.
+*/
+
+const HIGH_TEMPERATURES = {
+    yesterday: 75,
+    today: 77,
+    tomorrow: 80
+  };
+  
+  // Only change code below this line
+    
+  const highToday = HIGH_TEMPERATURES.today;
+  const highTomorrow = HIGH_TEMPERATURES.tomorrow; 
+  
+  // Only change code above this line
+
+  //ANSWER
+  //======
+  const HIGH_TEMPERATURES = {
+    yesterday: 75,
+    today: 77,
+    tomorrow: 80
+  };
+  
+  // Only change code below this line
+    
+  const {today:highToday,tomorrow:highTomorrow} = HIGH_TEMPERATURES;
+  
+  // Only change code above this line
