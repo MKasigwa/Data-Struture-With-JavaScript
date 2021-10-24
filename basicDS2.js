@@ -40,3 +40,26 @@ ourArray[1] = "not b anymore";
 Using bracket notation, we have now reset the item at index 1 from the string b, 
 to not b anymore. Now ourArray is ["a", "not b anymore", "c"].
 */
+
+//QUIZ
+//=====
+
+/*In order to complete this challenge, set the 2nd position (index 1) 
+of myArray to anything you want, besides the letter b.
+*/
+
+let myArray = ["a", "b", "c", "d"];
+// Only change code below this line
+
+// Only change code above this line
+console.log(myArray);
+
+
+//ANSWER
+//=======
+
+let myArray = ["a", "b", "c", "d"];
+// Only change code below this line
+myArray[1]="z";
+// Only change code above this line
+console.log(myArray);
