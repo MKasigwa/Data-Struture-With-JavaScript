@@ -33,4 +33,27 @@ let array = ['I', 'am', 'feeling', 'really', 'happy'];
 
 let newArray = array.splice(3, 2);
 
-//newArray has the value ['really', 'happy'].
+//newArray has the value ['really', 'happy'].å
+
+//QUIZ
+//=====
+/*
+We've initialized an array arr. Use splice() to remove elements from arr, 
+so that it only contains elements that sum to the value of 10.
+*/
+const arr = [2, 4, 5, 1, 7, 5, 2, 1];
+// Only change code below this line
+
+// Only change code above this line
+console.log(arr);
+
+//ANSWER
+//=====
+
+const arr = [2, 4, 5, 1, 7, 5, 2, 1];
+// Only change code below this line
+arr.splice(0,1);
+arr.splice(3,);
+
+// Only change code above this line
+console.log(arr);
