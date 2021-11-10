@@ -19,6 +19,31 @@ The example adds the sayName method, which is a function that returns a sentence
 the name of the duck. Notice that the method accessed the name property in the return statement 
 using duck.name. The next challenge will cover another way to do this.
 
+*/
+
+//QUIZ
+
+/*
 Using the dog object, give it a method called sayLegs. The method should 
 return the sentence This dog has 4 legs.
 */
+
+let dog = {
+    name: "Spot",
+    numLegs: 4,
+  
+  };
+  
+  dog.sayLegs();
+
+  //ANSWER
+  let dog = {
+    name: "Spot",
+    numLegs: 4,
+    sayLegs:function(){
+        return `This dog has ${dog.numLegs} legs.`;
+    }
+  
+  };
+  
+  dog.sayLegs();
