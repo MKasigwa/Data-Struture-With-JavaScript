@@ -24,3 +24,25 @@ associated with: duck. If the object's name is changed to mallard, it
 is not necessary to find all the references to duck in the code. It makes 
 the code reusable and easier to read.
 */
+
+//QUIZ
+
+/*Modify the dog.sayLegs method to remove any references to dog. 
+Use the duck example for guidance.
+*/
+let dog = {
+    name: "Spot",
+    numLegs: 4,
+    sayLegs: function() {return "This dog has " + dog.numLegs + " legs.";}
+  };
+  
+  dog.sayLegs();
+
+  //ANSWER
+  let dog = {
+    name: "Spot",
+    numLegs: 4,
+    sayLegs: function() {return "This dog has " + this.numLegs + " legs.";}
+  };
+  
+  dog.sayLegs();
